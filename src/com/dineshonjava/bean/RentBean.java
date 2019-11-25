@@ -9,7 +9,12 @@ public class RentBean {
 	private String state;
 	private String price;
 	private String deposite;
-	
+	private String carparking;
+	private String swimmingpool;
+	private String fitnesscenter;
+	private String water;
+	private String elevator;
+	private String status;
 	
 	
 	public String getDeposite() {
@@ -60,7 +65,38 @@ public class RentBean {
 	public void setStatus(String status) {
 		this.status = status;
 	}
-	private String status;
+	public String getCarparking() {
+		return carparking;
+	}
+	public void setCarparking(String carparking) {
+		this.carparking = carparking;
+	}
+	public String getSwimmingpool() {
+		return swimmingpool;
+	}
+	public void setSwimmingpool(String swimmingpool) {
+		this.swimmingpool = swimmingpool;
+	}
+	public String getFitnesscenter() {
+		return fitnesscenter;
+	}
+	public void setFitnesscenter(String fitnesscenter) {
+		this.fitnesscenter = fitnesscenter;
+	}
+	public String getWater() {
+		return water;
+	}
+	public void setWater(String water) {
+		this.water = water;
+	}
+	public String getElevator() {
+		return elevator;
+	}
+	public void setElevator(String elevator) {
+		this.elevator = elevator;
+	}
+	
+	
 
 	
 	

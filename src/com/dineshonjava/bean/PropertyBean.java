@@ -1,5 +1,5 @@
 package com.dineshonjava.bean;
-
+import java.util.List;
 //create table employee(empid number,empname varchar2(30),empage number,salary number,
 //empaddress varchar2(30));
 public class PropertyBean {
@@ -10,6 +10,13 @@ public class PropertyBean {
 	private String state;
 	private String price;
 	private String status;
+	private String carparking;
+	private String swimmingpool;
+	private String fitnesscenter;
+	private String water;
+	private String elevator;
+	
+	 
 	
 	public String getState() {
 		return state;
@@ -53,6 +60,41 @@ public class PropertyBean {
 	public void setStatus(String status) {
 		this.status = status;
 	}
+	public String getCarparking() {
+		return carparking;
+	}
+	public void setCarparking(String carparking) {
+		this.carparking = carparking;
+	}
+	public String getSwimmingpool() {
+		return swimmingpool;
+	}
+	public void setSwimmingpool(String swimmingpool) {
+		this.swimmingpool = swimmingpool;
+	}
+	public String getFitnesscenter() {
+		return fitnesscenter;
+	}
+	public void setFitnesscenter(String fitnesscenter) {
+		this.fitnesscenter = fitnesscenter;
+	}
+	public String getWater() {
+		return water;
+	}
+	public void setWater(String water) {
+		this.water = water;
+	}
+	public String getElevator() {
+		return elevator;
+	}
+	public void setElevator(String elevator) {
+		this.elevator = elevator;
+	}
+	
+	
+	
+	
+	
 	
 
 	

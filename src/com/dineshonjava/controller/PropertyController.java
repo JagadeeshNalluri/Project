@@ -90,6 +90,11 @@ public class PropertyController {
 		property.setState(propertyBean.getState());
 		property.setPrice(propertyBean.getPrice());
 		property.setCity(propertyBean.getCity());
+		property.setCarparking(propertyBean.getCarparking());
+		property.setFitnesscenter(propertyBean.getFitnesscenter());
+		property.setElevator(propertyBean.getElevator());
+		property.setWater(propertyBean.getWater());
+		property.setSwimmingpool(propertyBean.getSwimmingpool());
 		propertyBean.setId(null);
 		return property;
 	}
@@ -108,6 +113,12 @@ public class PropertyController {
 				bean.setState(property.getState());
 				bean.setPrice(property.getPrice());
 				bean.setStatus(property.getStatus());
+				bean.setCarparking(property.getCarparking());
+				bean.setFitnesscenter(property.getFitnesscenter());
+				bean.setElevator(property.getElevator());
+				bean.setWater(property.getWater());
+				bean.setSwimmingpool(property.getSwimmingpool());
+				
 				beans.add(bean);
 			}
 		}
@@ -124,9 +135,12 @@ public class PropertyController {
 		bean.setState(property.getState());
 		bean.setPrice(property.getPrice());
 		bean.setStatus(property.getStatus());
-	
-		
-		return bean;
+		bean.setCarparking(property.getCarparking());
+		bean.setFitnesscenter(property.getFitnesscenter());
+		bean.setElevator(property.getElevator());
+		bean.setWater(property.getWater());
+		bean.setSwimmingpool(property.getSwimmingpool());
+	    return bean;
 	}
 }
 

@@ -39,6 +39,21 @@ public class Property implements Serializable{
 	@Column(name="status")
 	private String status;
 
+	@Column(name="carparking")
+	private String carparking;
+	
+	@Column(name="swimmingpool")
+	private String swimmingpool;
+	
+	@Column(name="water")
+	private String water;
+	
+	@Column(name="elevator")
+	private String elevator;
+	
+	@Column(name="fitnesscenter")
+	private String fitnesscenter;
+	
 	public Integer getId() {
 		return id;
 	}
@@ -94,6 +109,50 @@ public class Property implements Serializable{
 	public void setStatus(String status) {
 		this.status = status;
 	}
+
+	public String getCarparking() {
+		return carparking;
+	}
+
+	public void setCarparking(String carparking) {
+		this.carparking = carparking;
+	}
+
+	public String getSwimmingpool() {
+		return swimmingpool;
+	}
+
+	public void setSwimmingpool(String swimmingpool) {
+		this.swimmingpool = swimmingpool;
+	}
+
+	public String getWater() {
+		return water;
+	}
+
+	public void setWater(String water) {
+		this.water = water;
+	}
+
+	public String getElevator() {
+		return elevator;
+	}
+
+	public void setElevator(String elevator) {
+		this.elevator = elevator;
+	}
+
+	public String getFitnesscenter() {
+		return fitnesscenter;
+	}
+
+	public void setFitnesscenter(String fitnesscenter) {
+		this.fitnesscenter = fitnesscenter;
+	}
+
+	
+	
+	
 
 	
 }
